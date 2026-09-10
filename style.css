@@ -136,3 +136,14 @@ main {
     font-size: 0.85rem;
     margin: 0;
 }
+
+footer{
+    background-color: #0c0a09;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-texto{
+    color: #a0a0a0;
+}
