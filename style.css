@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.pagina-principal{
+.pagina-principal {
     background-color: #1c1917;
     font-family: sans-serif;
     margin: 0;
@@ -13,39 +13,44 @@
     min-height: 100vh;
 }
 
-.barra-navegacion{
+.barra-navegacion {
+    background-color: #292524;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+
+.contenedor-flex-barra {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.contenedor-flex-barra{
-
-}
-
-.contenedor-logo{
-
-}
-
-.texto-logo{
+.texto-logo {
     color: #f97316;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
-.contenedor-menu-derecha{
 
+.lista-menu {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
 }
 
-.navegacion-principal{
-
-}
-
-.lista-menu{
-
-}
-
-.item-menu{
-
+.item-menu {
     color: #d6d3d1;
+    cursor: pointer;
 }
 
-.boton-contacto{
+.boton-contacto {
+    background-color: #292524;
     color: #f97316;
+    border: 2px solid #f97316;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
+
