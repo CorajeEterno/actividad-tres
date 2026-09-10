@@ -54,7 +54,101 @@
     cursor: pointer;
 }
 
-.contenedor-flex-hero{
-
+/* Layout General: Pone la sección Hero a la izquierda y Servicios a la derecha */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
+/* Columna Izquierda: Hero */
+.seccion-hero {
+    width: 50%;
+}
+
+.contenedor-flex-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+}
+
+.contenedor-imagen-hero {
+    width: 100%;
+}
+
+.imagen-hero {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.titulo-principal-hero {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.texto-hero {
+    color: #a0a0a0;
+    margin: 0;
+}
+
+.contenedor-boton-hero {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.hero-boton {
+    background-color: #ff5500;
+    color: #292524;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.seccion-servicios {
+    width: 45%;
+}
+
+.contenedor-flex-tarjetas {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #222222;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.imagen-tarjeta {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.titulo-tarjeta {
+    color: #ff5500;
+    font-size: 1.1rem;
+    margin: 0 0 6px 0;
+}
+
+.texto-tarjeta {
+    color: #a0a0a0;
+    font-size: 0.85rem;
+    margin: 0;
+}
