@@ -1,11 +1,51 @@
-*{
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-
+.pagina-principal{
+    background-color: #1c1917;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .barra-navegacion{
-    
+    display: flex;
+}
+
+.contenedor-flex-barra{
+
+}
+
+.contenedor-logo{
+
+}
+
+.texto-logo{
+    color: #f97316;
+}
+
+.contenedor-menu-derecha{
+
+}
+
+.navegacion-principal{
+
+}
+
+.lista-menu{
+
+}
+
+.item-menu{
+
+    color: #d6d3d1;
+}
+
+.boton-contacto{
+    color: #f97316;
 }
