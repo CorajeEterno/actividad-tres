@@ -13,6 +13,10 @@
     min-height: 100vh;
 }
 
+header{
+    height: 70px;
+}
+
 .barra-navegacion {
     background-color: #292524;
     padding: 20px 40px;
@@ -54,38 +58,24 @@
     cursor: pointer;
 }
 
-/* Layout General: Pone la sección Hero a la izquierda y Servicios a la derecha */
+
 main {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 40px 20px;
 }
 
-/* Columna Izquierda: Hero */
-.seccion-hero {
-    width: 50%;
-}
 
 .contenedor-flex-hero {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     text-align: left;
     gap: 20px;
 }
 
-.contenedor-imagen-hero {
-    width: 100%;
-}
-
 .imagen-hero {
     width: 100%;
-    height: auto;
-    border-radius: 12px;
+    height: 20rem;
 }
 
 .titulo-principal-hero {
@@ -99,25 +89,17 @@ main {
     margin: 0;
 }
 
-.contenedor-boton-hero {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-}
-
 .hero-boton {
     background-color: #ff5500;
+    font-weight: bold;
     color: #292524;
     padding: 12px 28px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    align-self: flex-start;
 }
 
-
-.seccion-servicios {
-    width: 45%;
-}
 
 .contenedor-flex-tarjetas {
     display: flex;
@@ -127,18 +109,20 @@ main {
 
 .tarjeta {
     display: flex;
-    align-items: center;
     gap: 16px;
     background-color: #222222;
     padding: 16px;
-    border-radius: 12px;
 }
 
 .imagen-tarjeta {
-    width: 120px;
-    height: 90px;
-    object-fit: cover;
-    border-radius: 8px;
+    width: 220px;
+    height: 100px;
+}
+
+.contenido-tarjeta {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 .titulo-tarjeta {
